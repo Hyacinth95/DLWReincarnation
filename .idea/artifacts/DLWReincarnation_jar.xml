@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DLWReincarnation:jar">
+    <output-path>$PROJECT_DIR$/../../../MCServerTest/plugins</output-path>
+    <root id="archive" name="DLWReincarnation.jar">
+      <element id="module-output" name="DLWReincarnation" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="directory" name="message">
+        <element id="file-copy" path="$PROJECT_DIR$/src/message/message.yml" />
+      </element>
+    </root>
+  </artifact>
+</component>
